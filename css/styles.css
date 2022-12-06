@@ -72,6 +72,18 @@
   background-color: #ddd; /* Que sea mas oscuro*/
 }
 
+/* Centando el logo de (twitter) */
+.twitter-btn picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* logo de (img-twitter) */
+.twitter-btn picture img {
+  width: 75%; /* Reduciendo el logo */
+}
+
 .separator {
   display: flex; /* Para que me ponga todo en una misma (lINEA) */
   width: 100%;
